@@ -1,0 +1,158 @@
+.responsive-table li {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.fitting__first-row {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.2;
+  color: $product-info-color;
+  margin-bottom: 9px;
+  padding: 0;
+}
+
+.fitting-row {
+  border: 1px solid $fitting-borfer-color;
+}
+
+.fitting__size {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: $third-text-color;
+  margin-left: 5px;
+  margin-right: auto;
+  position: absolute;
+  top: -1px;
+}
+
+.col1 {
+  flex-basis: 5%;
+  position: relative;
+}
+
+.col2 {
+  flex-basis: 5%;
+}
+
+.col3 {
+  flex-basis: 5%;
+}
+
+.col4 {
+  flex-basis: 5%;
+}
+
+.col5 {
+  flex-basis: 5%;
+}
+
+.fitting-row:hover,
+.fitting-row:focus {
+  background-color: rgba(106, 4, 5, 0.1);
+}
+
+/*   DESKTOP */
+
+.fitting__product-shipping--container {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media screen and (min-width: $tablet-general) {
+    max-width: 669px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+  }
+  @media screen and (min-width: $desktop-up) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.fitting__description-item {
+  margin-bottom: 75px;
+}
+
+@media screen and (min-width: $desktop-up) {
+  .fitting__heading {
+    text-align: center;
+  }
+
+  .fitting__section {
+    position: relatiave;
+    padding-top: 68px;
+    padding-bottom: 451px;
+  }
+
+  .fitting__section::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    left: -170px;
+    top: 0;
+    z-index: -1;
+    background-image: url('../images/elean47390.jpg');
+    @media screen and (min-width: 2000px) {
+      background-image: linear-gradient(to right, $background-fitting, rgba(0, 0, 0, 0) 20%),
+        url('../images/elean47390@2x.jpg');
+    }
+  }
+
+  .fitting__section::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: $background-fitting;
+    background-repeat: no-repeat;
+    background-size: 50vw 100%;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    background-image: url('../images/fon.jpg');
+  }
+
+  .fitting__size-table {
+    background-color: $third-background-color;
+    padding: 35px;
+  }
+
+  .fitting__minor-title {
+    margin-bottom: 35px;
+    margin-top: 0;
+
+    @media screen and (min-width: $mobile-first) and (max-width: $tablet-general) {
+      margin-bottom: 30px;
+    }
+  }
+
+  .fitting__description-item {
+    padding: 15px 40px;
+  }
+
+  .fitting__video-slider {
+    background-color: $third-background-color;
+    padding: 35px;
+    overflow: hidden;
+  }
+
+  .fitting__video,
+  .fitting__first-video {
+    width: 183px;
+    display: block;
+  }
+
+  .fitting__video-slider-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

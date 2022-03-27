@@ -1,0 +1,22 @@
+@mixin flex($type: flex, $cross: center, $main: center) {
+  display: $type;
+  align-items: $cross;
+  justify-content: $main;
+}
+
+@mixin line($color: color, $transfY: transfY, $main: center) {
+  display: inline-block;
+  content: '';
+  border-bottom: 0.1rem solid $color;
+  width: 100%;
+  transform: translateY($transfY);
+}
+@mixin position-center($text-align: center) {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: $text-align;
+}
