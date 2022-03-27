@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NikitaMelnychencko/eleanshop.git"
+    "url": "git+https://github.com/Saftar94/Elenashop.git"
   },
-  "author": "NikitaMelnychencko",
+  "author": "Saftar94",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NikitaMelnychencko/eleanshop/issues"
+    "url": "https://github.com/Saftar94/Elenashop/issues"
   },
-  "homepage": "https://github.com/NikitaMelnychencko/eleanshop#readme",
+  "homepage": "https://github.com/Saftar94/Elenashop#readme",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
