@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/Saftar94/Elenashop/issues"
   },
-  "homepage": "https://github.com/Saftar94/Elenashop#readme",
+  "homepage": "https://github.com/Saftar94/Elenashop",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
