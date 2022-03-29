@@ -11,7 +11,6 @@ module.exports = merge(commonConfig, {
     path: paths.dist,
     publicPath: './',
     filename: 'js/[name].[contenthash].bundle.js',
-    hashFunction: 'xxhash64',
   },
   module: {
     rules: [

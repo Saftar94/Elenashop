@@ -12,12 +12,12 @@
     "type": "git",
     "url": "git+https://github.com/Saftar94/Elenashop.git"
   },
-  "author": "Saftar94",
+  "author": "NikitaMelnychencko",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Saftar94/Elenashop/issues"
   },
-  "homepage": "https://github.com/Saftar94/Elenashop",
+  "homepage": "https://github.com/Saftar94/Elenashopp#readme",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
@@ -69,9 +69,7 @@
     "handlebars-helpers": "^0.10.0",
     "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
-    "react-scripts": "^2.1.8",
     "throttle-debounce": "^3.0.1",
     "yt-player": "^3.5.0"
-  },
-  "keywords": []
+  }
 }
